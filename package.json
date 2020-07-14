@@ -1,0 +1,49 @@
+{
+  "name": "stickycal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A week-view application with notes per weekday and general week notes. Made with love for Emma",
+  "author": {
+    "name": "Cole Hollant",
+    "email": "coleghollant@gmail.com",
+    "url": "https://colehollant.com"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
+    "electron:icons": "electron-icon-builder --input=./public/logo.png --output=build --flatten",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
+  },
+  "main": "background.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/vue-fontawesome": "^0.1.9",
+    "@vue/composition-api": "^0.4.0",
+    "core-js": "^3.4.4",
+    "electron-icon-builder": "^1.0.2",
+    "lodash": "^4.17.15",
+    "luxon": "^1.22.0",
+    "node-ical": "^0.10.0",
+    "tailwindcss": "^1.2.0",
+    "v-click-outside": "^3.0.1",
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.3",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "babel-eslint": "^10.0.3",
+    "electron": "^8.0.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-cli-plugin-electron-builder": "^1.4.4",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
