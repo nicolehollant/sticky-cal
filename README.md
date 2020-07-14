@@ -1,3 +1,5 @@
+<img src="./public/logo.png" alt="stickycal logo" width="128" />
+
 # stickycal
 
 This is a little week-view calendar/notes app!
@@ -23,3 +25,15 @@ This is a little week-view calendar/notes app!
 
 - issue with uploading calendars (something funky with the notes sections)
 - should do a try-catch for calendar not existing
+
+## Build
+
+Clone repo, run:
+```sh
+yarn install
+yarn electron:build
+```
+
+## Screenshot
+
+![sample screen](screenshot.png)
