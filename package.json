@@ -27,7 +27,7 @@
     "core-js": "^3.4.4",
     "electron-icon-builder": "^1.0.2",
     "lodash": "^4.17.15",
-    "luxon": "^1.22.0",
+    "luxon": "^1.28.1",
     "node-ical": "^0.10.0",
     "tailwindcss": "^1.2.0",
     "v-click-outside": "^3.0.1",
